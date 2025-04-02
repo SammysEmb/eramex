@@ -1,0 +1,74 @@
+.body {
+    background: #ffffff;
+    width:100%;
+}
+
+.logofq img {
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    width: 7%;
+    height: auto;
+}
+
+.logounam img {
+    position: absolute;
+    top: 2%;
+    width: 7%;
+    left: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.title h1 {
+    position: absolute;
+    color: rgb(14, 120, 161);
+    font-size: 200%;
+    background-color: rgb(255, 253, 253);
+    top: 2%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle h2 {
+    color: black;
+    font-size: 150%;
+    background-color: rgb(255, 252, 252);
+    position: absolute;
+    top:6.5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.descripcion b {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 13%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);    
+}
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black;
+    position: relative;
+    top: 145px;
+    right:-30px;
+    width: 95%;
+    background-color: whitesmoke;
+    margin-top: 2.5%;
+}
+ 
+td, th {
+    border: 1px solid #050000;
+    text-align:justify ;
+    padding: 8px;
+  }
+th {
+    border: 1px solid #050000;
+    text-align:center;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+

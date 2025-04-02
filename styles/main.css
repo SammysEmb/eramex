@@ -1,0 +1,329 @@
+/*fondo pagina*/
+
+.body {
+    background: #ffffff;
+}
+
+/*mapa republica*/
+
+#control_map {
+    position: relative;
+    width: 1%;
+    margin-top: 0%;
+    transform: scale(0.85);
+    left: 5%;
+    width: 50%;
+
+}
+
+/*mapeo de estados*/
+
+.mapadiv {
+    position: absolute;
+    background: #ffffff;
+    margin-top: 5%;
+    top: 0%;
+    left:0%;
+    width: 10%;
+    
+}
+
+/*imagen mapa*/
+
+.mapadiv path {
+    fill: #6e006e;
+    stroke: #ade6c3;
+    stroke-width: 2px;
+    position: absolute;
+}
+
+/*parte arriba mapa, cuando pasas el cursor del mouse por el estado*/
+
+.mapadiv :hover {
+    fill: #800008;
+}
+
+/*logo facultad*/
+
+.logofq img {
+    position: absolute;
+    top: 2%;
+    left: 13%;
+    width: 7%;
+    height: auto;
+}
+
+/*logo unam*/
+
+.logounam img {
+    position: absolute;
+    top: 2%;
+    width: 7%;
+    left: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+/*Texto unam*/
+
+.title h1 {
+    color: rgb(14, 120, 161);
+    font-size: 64px;
+    margin: 0px;
+    top: 0%;
+    position: relative;
+    text-align: center;
+    margin: 1px;    
+}
+
+/*Texto Facultad de Quimica*/
+
+.title h2 {
+    position:relative;
+    color:black;
+    font-size: 24px;
+    margin: 0px;
+    text-align: center;
+}
+
+/*Texto Mapa Interactivo en Materia de Riesgo Ambiental*/
+
+.subtitle h3 {
+    color: black;
+    font-size: 30px;
+    background-color: rgb(255, 252, 252);
+    text-align: center;
+    margin: 5px;
+}
+
+/*Texto Proyecto de estancia Profesional*/
+
+.descripcion b {
+    position: relative;
+    color: black;
+    font-size: 20px;
+    top: 20%;
+    left: 42%;
+    transform: translateY(-60%);
+    background-color: rgb(255, 255, 255);
+}
+
+/*instrucciones del mapa*/
+
+.instrucciones {
+position: relative;
+font-size: 22px;
+margin: 30px;
+}
+
+/*estilo boton diagnóstico*/
+
+.btn-success1 {
+    border: 0.5px solid black;
+    padding: 30px 101px;
+    color: rgb(14, 120, 161);
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+.btn-success2 {
+    border: 0.5px solid black;
+    padding: 30px 111px;
+    color: rgb(14, 120, 161);
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+.btn-success3 {
+    border: 0.5px solid black;
+    padding: 30px 30px;
+    color: rgb(14, 120, 161);
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+/*estilo boton análisis estatal*/
+
+.btn-success4 {
+    border: 0.5px solid black;
+    padding: 30px 87px;
+    color: rgb(14, 120, 161);
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+
+.btn-success:hover {
+    background-color: rgb(14, 120, 161);
+    color: white;
+}
+
+/*boton diagnostico con el cursor arriba*/
+
+.btn-success1:hover {
+    background-color: rgb(14, 120, 161);
+    color: white;
+}
+.btn-success2:hover {
+    background-color: rgb(14, 120, 161);
+    color: white;
+}
+.btn-success3:hover {
+    background-color: rgb(14, 120, 161);
+    color: white;
+}
+
+/*boton analisis estatal con el cursor arriba*/
+
+.btn-success4:hover {
+    background-color: rgb(14, 120, 161);
+    color: white;
+}
+
+/*propiedades boton diagnostico*/
+
+.seccion1 {
+    position: absolute;
+    top: 60%;
+    left: 65%;
+}
+.seccion2 {
+    position: absolute;
+    top: 55%;
+    left: 65%;
+}
+
+/*propiedades boton analisis estatal*/
+
+.seccion3 {
+    position: absolute;
+    top: 80%;
+    left: 65%;
+}
+/* Dropup Button */
+.dropbtn {
+    border: 0.5px solid black;
+    padding: 30px 104px;
+    color: rgb(14, 120, 161);
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+    background-color: whitesmoke;
+  }
+ /* The container <div> - needed to position the dropup content */
+.dropup {
+    position: absolute;
+    display: inline-block;
+    top: 50%;
+    left: 65%;
+
+  }
+  
+  /* Dropup content (Hidden by Default) */
+  .dropup-content {
+    display: none;
+    position: absolute;
+    bottom: 50px;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropup */
+  .dropup-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  /* Change color of dropup links on hover */
+  .dropup-content a:hover {background-color: #ddd}
+  
+  /* Show the dropup menu on hover */
+  .dropup:hover .dropup-content {
+    display: block;
+  }
+  
+  /* Change the background color of the dropup button when the dropup content is shown */
+  .dropup:hover .dropbtn {
+    background-color: rgb(14, 120, 161)
+  }
+
+@media screen and (max-width: 1250px) {
+    
+    .seccion1 {
+        position: absolute;
+        top: 140%;
+        left: 20%;
+    }
+
+    .seccion3 {
+        position: absolute;
+        top: 140%;
+        left: 50%;
+    }
+
+    .mapadiv {
+    position: fixed;
+    background: #ffffff;
+    margin-top: 5%;
+    top: 0%;
+    left: 30%;
+    width: 10%;
+    
+}
+
+}
+
+@media screen and (max-width: 1170px) {
+    
+    .seccion1 {
+        position: relative;
+        top: 600px;
+        left: 35%;
+    }
+
+    .seccion3 {
+        position: relative;
+        top: 700px;
+        left: 35%;
+    }
+
+}
+
+@media screen and (max-width: 336px) {
+    
+    .btn-success4 {
+        border: 0.5px solid black;
+        padding: 30px 87px;
+        color: rgb(14, 120, 161);
+        text-decoration: none;
+        transition: 0.6s ease;
+        font-size: 20px;
+        background-color: whitesmoke;
+    }
+
+}
+
+
+@media screen and (max-width: 317px) {
+    
+    .btn-success4 {
+        border: 0.5px solid black;
+        padding: 30px 87px;
+        color: rgb(14, 120, 161);
+        text-decoration: none;
+        transition: 0.6s ease;
+        font-size: 20px;
+        background-color: whitesmoke;
+        position: absolute;
+    }
+}

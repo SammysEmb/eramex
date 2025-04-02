@@ -1,0 +1,109 @@
+.body {
+    background: #ffffff;
+    width:100%;
+}
+
+.logofq img {
+    position: absolute;
+    top: 1%;
+    left: 15%;
+    width: 8%;
+    height: auto;
+}
+
+.logounam img {
+    position: absolute;
+    top: 1%;
+    width: 8%;
+    left: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.escudo img{
+    position: absolute;
+    top: 1%;
+    width: 6%;
+    height:auto ;
+    right: 5%;
+    background-color: rgb(255, 255, 255);
+}
+.title h1 {
+    position: absolute;
+    color: rgb(14, 120, 161);
+    font-size: 200%;
+    background-color: rgb(255, 253, 253);
+    top: 0%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.subtitle h2 {
+    color: black;
+    font-size: 150%;
+    background-color: rgb(255, 252, 252);
+    position: absolute;
+    top:5%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.descripcion b {
+    color: black;
+    font-size: 20px;
+    position: absolute;
+    top: 12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(255, 255, 255);    
+}
+.situacion {
+    position:relative;
+    top: 150px;
+    left: 50px;
+    background-color: rgb(255, 255, 255);
+}
+.situacion p,p1 {
+    color: black;
+    font-size: 22px;
+}
+.situacion p{
+margin-top: 1px;
+}
+
+table{
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    border: 1px solid black;
+    position: relative;
+    top: 145px;
+    right:-30px;
+    width: 95%;
+    background-color: whitesmoke;
+    margin-top: 2.5%;
+    padding: 1%;
+}
+ 
+td, th {
+    border: 1px solid #050000;
+    text-align:justify ;
+    padding: 8px;
+  }
+th {
+    border: 1px solid #050000;
+    text-align:center;
+    padding: 8px;
+  }
+  tr:nth-child(even) {
+    background-color: #dddddd;
+  }
+  .btn-success1 {
+    border: 0.5px solid black;
+    padding: 5px 15px;
+    color: rgb(14, 120, 161);
+    text-decoration: none;
+    transition: 0.6s ease;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+.btn-success1:hover {
+    background-color: rgb(14, 120, 161);
+    color: white;
+}
